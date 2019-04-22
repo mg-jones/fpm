@@ -11,5 +11,4 @@ RUN apt-get update && apt-get install -y \
     && gem install --no-ri --no-rdoc fpm \
     && rm -rf /var/libe/apt/lists/*
 
-ENTRYPOINT ["fpm"]
-CMD ["--help"]
+CMD ["/usr/local/bin/fpm"]
