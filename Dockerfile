@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     python2.7 \
     python-simplejson \
+    python-setuptools \
     ruby \
     ruby-dev \
     rubygems \
